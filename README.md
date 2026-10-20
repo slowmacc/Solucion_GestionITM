@@ -13,13 +13,13 @@ El repositorio está organizado en los siguientes módulos principales:
 * **`GestionITM.Core`**: Núcleo de la solución que contiene la lógica de negocio central, interfaces (`IMatriculasService.cs`) y servicios compartidos (`MatriculasService.cs`).
 * **`GestionITM.api`**: API Backend encargada de exponer los servicios y conectar con la capa de datos. Contiene controladores (ej. `MatriculaController.cs`).
 
-## 🐳 Despliegue y Contenedores
+## Despliegue y Contenedores
 
 El proyecto cuenta con soporte para contenedores mediante:
 * `Dockerfile` para la paquetización de servicios.
 * `docker-compose.yml` para la orquestación local de los componentes.
 
-## 🚀 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 * **C# / .NET** (para la API, Core y Aplicación Móvil).
 * **Docker** (para la contenerización).
